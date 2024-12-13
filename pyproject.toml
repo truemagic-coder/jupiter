@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "jupiter"
+name = "jupiter-solana"
 version = "0.0.1"
 description = "Python Jupiter SDK"
 authors = ["Bevan Hunt <bevan@bevanhunt.com>"]
@@ -13,7 +13,7 @@ classifiers = [
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
 ]
-packages = [{include = "jupiter"}]
+packages = [{include = "jupiter_solana"}]
 
 [tool.poetry.dependencies]
 python = "<4.0,>=3.9"

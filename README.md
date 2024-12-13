@@ -1,5 +1,5 @@
-# Jupiter
-Jupiter is a Python library for interacting with the Jupiter aggregator on the Solana blockchain.
+# Jupiter-Solana
+Jupiter-Solana is a Python library for interacting with the Jupiter aggregator on the Solana blockchain.
 
 ## Features
 * Token swapping
@@ -11,7 +11,7 @@ Jupiter is a Python library for interacting with the Jupiter aggregator on the S
 ## Quick Start
 ```python
 from solana.rpc.api import Client
-from jupiter import Jupiter
+from jupiter-solana import Jupiter
 
 # Initialize Solana client
 client = Client("YOUR_CUSTOM_RPC_URL")
